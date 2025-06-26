@@ -67,5 +67,10 @@ public:
             return;
         }
 
+        // Step 7:  if the value in the data field of the node is greater than that of parent
+        else if(x > parent->info)
+        {
+            
+        }
     }
 }
