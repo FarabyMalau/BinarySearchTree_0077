@@ -70,7 +70,11 @@ public:
         // Step 7:  if the value in the data field of the node is greater than that of parent
         else if(x > parent->info)
         {
-            
+            // 7a: Make the right child of parent ponit to the new node
+            parent->rightchild = newNode;
+
+            // 7b: Exit
+            return;
         }
     }
 }
