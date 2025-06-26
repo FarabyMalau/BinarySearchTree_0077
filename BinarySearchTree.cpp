@@ -49,7 +49,11 @@ public:
 
         // Step 5: if parent is NULL (tree is empty)
         if (parent == nullptr)
-        
+        {
+            // 5a: Mark the newNode as ROOT
+            ROOT = newNode;
+            
+        }
 
 
     }
