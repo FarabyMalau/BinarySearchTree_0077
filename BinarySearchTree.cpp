@@ -77,7 +77,7 @@ public:
             return;
         }
     }
-}
+};
 
 void search(int element, Node *&parent, Node *&currentNode)
 {
@@ -92,5 +92,25 @@ void search(int element, Node *&parent, Node *&currentNode)
         else
             currentNode = currentNode->rightchild;
     }
+
+    bool isEmpty()
+    {
+        // Checks if the tree is empty
+        return ROOT = nullptr;
+    }
+    void inorder(Node *ptr)
+    {
+        if (isEmpty())
+        {
+        cout << "Tree is Empty" << endl;
+        return;
+        }
+        if(ptr == nullptr)
+        return;
+    }
 }
+
+
+
+
 
