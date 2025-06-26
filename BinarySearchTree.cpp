@@ -57,6 +57,11 @@ public:
             return;
         }
 
+        // Step 6: if the value in the data field of the new node is less than that of parent
+        if (x < parent->info)
+        {
+            
+        }
 
     }
 }
